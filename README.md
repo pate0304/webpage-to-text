@@ -1,5 +1,9 @@
 # webpage-to-text
 
+[![PyPI version](https://badge.fury.io/py/webpage-to-text.svg)](https://badge.fury.io/py/webpage-to-text)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **LlamaIndex-powered web content extractor for RAG applications**
 
 Extract clean, structured text from web pages using LlamaIndex's powerful HTML parsing capabilities. Perfect for preparing content for RAG (Retrieval-Augmented Generation) systems, vector databases, and knowledge bases.
@@ -16,16 +20,30 @@ Extract clean, structured text from web pages using LlamaIndex's powerful HTML p
 
 ## Installation
 
-### From PyPI (Coming Soon)
+### From PyPI
 ```bash
 pip install webpage-to-text
 ```
 
+### From GitHub
+```bash
+pip install git+https://github.com/pate0304/webpage-to-text.git
+```
+
 ### From Source
 ```bash
-git clone https://github.com/yourusername/webpage-to-text.git
+git clone https://github.com/pate0304/webpage-to-text.git
 cd webpage-to-text
 pip install -e .
+```
+
+### Verify Installation
+```bash
+# Check if CLI is available
+webpage-to-text --help
+
+# Quick test
+webpage-to-text --url https://httpbin.org/html --output ./test/
 ```
 
 ## Quick Start
@@ -226,9 +244,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- 📖 [Documentation](https://github.com/yourusername/webpage-to-text#readme)
-- 🐛 [Bug Reports](https://github.com/yourusername/webpage-to-text/issues)
-- 💬 [Discussions](https://github.com/yourusername/webpage-to-text/discussions)
+- 📖 [Documentation](https://github.com/pate0304/webpage-to-text#readme)
+- 🐛 [Bug Reports](https://github.com/pate0304/webpage-to-text/issues)
+- 💬 [Discussions](https://github.com/pate0304/webpage-to-text/discussions)
 
 ---
 

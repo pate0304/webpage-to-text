@@ -49,10 +49,11 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/webpage-to-text"
-Repository = "https://github.com/yourusername/webpage-to-text"
-Documentation = "https://github.com/yourusername/webpage-to-text#readme"
-"Bug Tracker" = "https://github.com/yourusername/webpage-to-text/issues"
+Homepage = "https://github.com/pate0304/webpage-to-text"
+Repository = "https://github.com/pate0304/webpage-to-text"
+Documentation = "https://github.com/pate0304/webpage-to-text#readme"
+"Bug Tracker" = "https://github.com/pate0304/webpage-to-text/issues"
+"PyPI" = "https://pypi.org/project/webpage-to-text/"
 
 [project.scripts]
 webpage-to-text = "webpage_to_text.cli:main"
